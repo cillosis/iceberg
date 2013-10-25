@@ -1,0 +1,29 @@
+# Set Environment
+SetEnvIf Host ^framework\.dev APP_ENV=development
+
+# Don't list directory contents
+IndexIgnore *
+ 
+# Secure .htaccess
+RewriteRule ^(\.htaccess) - [NC,F]
+
+AddType application/vnd.ms-fontobject .eot
+AddType font/ttf .ttf
+AddType font/otf .otf
+AddType font/woff .woff
+AddType application/x-font-woff .woff
+AddType application/font-woff .woff
+
+RewriteEngine On
+RewriteBase /
+
+RewriteRule ^([^/]+/)*favicon\.ico$ assets/icon/favicon.ico [L,NC]
+
+RewriteCond %{REQUEST_URI} ^/assets.*$
+RewriteRule ^(.*)$ - [L,NC]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !favicon\.ico
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.*) index.php?resource=$1

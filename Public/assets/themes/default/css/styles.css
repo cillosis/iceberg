@@ -1,0 +1,268 @@
+/** 
+* HTML Elements
+******************************************************************************/
+a,
+a:visited {
+	color: #d3005d;
+}
+a:hover {
+	color: #F03084;
+}
+.header {
+	/*
+	background-color: #d3005d;
+	background: url('/assets/themes/default/img/header_background.png') repeat;
+	*/
+	background-color: #45C6ED;
+}
+.footer {
+	/*
+	background-color: #a60049;
+	background: url('/assets/themes/default/img/header_background.png') repeat;
+	*/
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+	box-shadow: 0 1px 10px rgba(0,0,0,.1);
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #c7c7c7;
+	color: #444;
+}
+.footer a,
+.footer a:visited {
+	font-weight: bold;
+	color: #e93283;
+}
+.footer a:hover {
+	color: #fdc2dc;
+}
+
+/**
+* Bootstrap Overrides
+******************************************************************************/
+
+.navbar-inner {
+	
+}
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+	background: rgb(230,230,230); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(230,230,230,1) 0%, rgba(183,183,183,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(230,230,230,1)), color-stop(100%,rgba(183,183,183,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(183,183,183,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(183,183,183,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(230,230,230,1) 0%,rgba(183,183,183,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(230,230,230,1) 0%,rgba(183,183,183,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#b7b7b7',GradientType=0 ); /* IE6-9 */
+	color: #333;
+	border-left: 1px solid #AAA;
+	border-right: 1px solid #AAA;
+	-webkit-box-shadow: none; /* inset 0 -2px 8px rgba(0, 0, 0, 0.125); */
+	-moz-box-shadow: none; /* inset 0 -2px 8px rgba(0, 0, 0, 0.125); */
+	box-shadow: none; /* inset 0 -2px 8px rgba(0, 0, 0, 0.125); */
+	text-shadow: none;
+	font-weight: bold;
+}
+.hero-unit {
+	background-color: #52CEFF;
+	/*background: url('/assets/themes/default/img/pattern-grey.png') repeat;*/
+}
+.hero-unit h1 {
+	color: #FFF;
+}
+.hero-unit h2 {
+	color: #29728F;
+}
+.modal {
+	z-index: 1300;
+}
+.modal-backdrop {
+	z-index: 1290;
+}
+.bootbox .modal {
+	z-index: 1400;
+}
+.bootbox.modal.fade.in {
+	top: 25% !important;
+}
+/** 
+* Custom Classes
+******************************************************************************/
+.withTitle {
+	padding: 0px;
+}
+.withTitleHeader {
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	color: #444;
+	border-top-left-radius: inherit;
+	border-top-right-radius: inherit;
+	padding: 10px;
+	padding-left: 15px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.withTitleContent {
+	padding: 20px;
+}
+
+/**
+* Products [/order/index || /order]
+******************************************************************************/
+.productContainer {
+	margin-left: 20px;
+}
+.product {
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center; 
+	display: inline-block;
+	vertical-align: top; 
+}
+.product a:hover {
+	text-decoration: none;
+}
+.productImage {
+	border: 2px solid #BBB;
+}
+.productName {
+	width: 200px;
+}
+.productPrice {
+	color: #ADC752;
+}
+
+/**
+* Product View [/order/view]
+******************************************************************************/
+
+
+/**
+* Shopping Cart [/order/cart]
+******************************************************************************/
+.cartItem {
+
+}
+.cartItemThumbnail {
+	width: 15%;
+}
+.cartItemThumbnail img {
+	width: 150px;
+	height: auto;
+}
+.cartItemTitle {
+	font-size: 20px; 
+	font-weight: bold; 
+	color: #00AEE8;
+}
+.cartItemDescription {
+	font-size: 12px; 
+	color: #666;
+}
+.cartItemPrice {
+	font-size: 20px; 
+	font-weight: bold; 
+	color: #ADC752; 
+	width: 1%;
+}
+.cartMetaDisplay {
+	background-color: #FFFFFF;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.cartMetaDisplay td {
+	background-color: #FFFFFF !important;
+}
+.cartMetaStatus {
+	color: #ADC752;
+	white-space: nowrap;
+	width: 1%;
+}
+.cartMetaTitle {
+	color: #666666;
+	white-space: nowrap;
+	width: 1%;
+}
+.cartMetaData {
+	color: #ADC752;
+}
+.cartTotals {
+	width:200px;
+}
+.cartTotals > tbody > tr > td {
+	vertical-align: middle;
+}
+.cartTotalPrice,
+.cartTotalTaxes,
+.cartTotalDiscount,
+.cartTotalShipping {
+	font-weight: bold;
+	color: #444444;
+}
+.cartTotalGrandTotal {
+	font-weight: bold;
+	color: #ADC752;
+}
+
+/**
+* Checkout [/order/checkout]
+******************************************************************************/
+.tabContainer {
+	background-color: #FAFAFA;
+	padding: 10px;
+}
+.tabs {
+	display: block;
+	list-style-type: disc;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 40px;
+}
+.tabs li {
+	list-style: none;
+	display: inline;
+}
+.tabs li span {
+	font-size: 18px; 
+	font-weight: bold; 
+	padding: 10px;
+}
+.tabs i {
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #DDD;
+}
+.checkoutForm h4 {
+	color: #e93283;
+}
+.checkoutForm hr {
+	margin-top: 2px;
+}
+.checkoutForm fieldset {
+	display: none;
+}
+.checkoutForm .active {
+	display: block;
+}
+.formError {
+	display: inline-block;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #CC1F1F;
+}

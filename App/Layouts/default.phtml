@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title><?php echo($this->layoutTitle) ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="<?php echo($this->layoutDescription) ?>">
+    <meta name="author" content="Iceberg Framework">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/icon/favicon.ico?v=<?php echo(time()); ?>" rel="shortcut icon">
+    <?php $this->injectStyles(); ?>
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- JSON Parsing -->
+    <!--[if lt IE 10]>
+        <script src="/assets/js/json2.js"></script>
+        <script src="/assets/js/StringifyJson.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="masthead">
+            <h3 class="text-primary">
+                <img src="/assets/img/iceberg.png" style="width: 50px; height: 50px;">
+                Iceberg v0.1
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <?php echo($this->content); ?>
+            </div>
+        </div>
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <?php $this->injectScripts(); ?>
+
+</body>
+
+</html>
