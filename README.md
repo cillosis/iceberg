@@ -1,13 +1,12 @@
 <img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png"><br>
 
-Iceberg PHP Framework
+# Iceberg PHP Framework
 * * *
 
 <br>
 
 What is Iceberg?
 ----------------
-* * * 
 
 Iceberg is a lightweight PHP framework for rapid development of small to mid-size projects. It leans more towards a *convention over configuration* design and currently only supports MySQL database interfaces. 
 
