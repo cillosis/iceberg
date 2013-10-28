@@ -1,9 +1,6 @@
-<img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png"><br>
+<img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png">
 
 # Iceberg PHP Framework
-* * *
-
-<br>
 
 What is Iceberg?
 ----------------
