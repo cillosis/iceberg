@@ -1,5 +1,7 @@
 <img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png"><br>
+
 Iceberg PHP Framework
+* * *
 
 <br>
 
@@ -11,13 +13,11 @@ Iceberg is a lightweight PHP framework for rapid development of small to mid-siz
 
 Why Another Framework?
 ----------------------
-* * *
 
 Many of the frameworks I have used are either extremely full featured and designed for *almost* every possible use case, or blindingly simple and designed to get out of your way (which isn't always a bad thing). I created Iceberg as a middle ground that provides just enough features to make my life easier, but not too many that small to mid-size projects don't suffer from complexity and bloat. This framework is not designed to be for **everyone** or **everything**. If this project fits your needs, great! If not, there are plenty of fantastic alternatives.
 
 Getting Started
 ---------------
-* * *
 
 **Clone the project:** 
  ```git clone https://github.com/cillosis/iceberg.git ./myapp```
@@ -59,7 +59,6 @@ There are a few things you can configure:
 
 The Basics
 ----------
-* * *
 
 Iceberg follows an MVC pattern and routing follows the *Module/Controller/Action* pattern. By default, **Site** is the primary module, but you can create additional modules for things like admin areas, an API, etc. As I said before, Iceberg prefers a convention over configuration mentality which means a few things for you:
 
@@ -69,7 +68,6 @@ Iceberg follows an MVC pattern and routing follows the *Module/Controller/Action
 
 The App Class
 -------------
-* * *
 
 While the entry point to the application starts in *Public/index.php*, that instantiates the **App** class and calls the `run()` method. This method initializes the application. The primary area of importance here is this is where you setup your routes.
 
@@ -96,19 +94,16 @@ These methods are available at any point in the application using the global `Ic
 
 Controllers
 -----------
-* * *
 
 Coming soon.
 
 Views
 -----------
-* * *
 
 Coming soon.
 
 Models
 -----------
-* * *
 
 Coming soon.
 
