@@ -1,7 +1,5 @@
-<p style="text-align: center;">
-  <img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png"><br>
-  <span style="font-size: 50px; vertical-align: top;">Iceberg PHP Framework</span>
-</p>
+<img src="https://raw.github.com/cillosis/iceberg/master/Public/assets/img/iceberg.png"><br>
+Iceberg PHP Framework
 
 <br>
 
