@@ -10,7 +10,7 @@ Iceberg is a lightweight PHP framework for rapid development of small to mid-siz
 Why Another Framework?
 ----------------------
 
-Many of the frameworks I have used are either extremely full featured and designed for *almost* every possible use case, or blindingly simple and designed to get out of your way (which isn't always a bad thing). I created Iceberg as a middle ground that provides just enough features to make my life easier, but not too many that small to mid-size projects don't suffer from complexity and bloat. This framework is not designed to be for **everyone** or **everything**. If this project fits your needs, great! If not, there are plenty of fantastic alternatives.
+Many of the frameworks I have used are either extremely full featured and designed for *almost* every possible use case, or blindingly simple and designed to get out of your way (which isn't always a bad thing). I created Iceberg as a middle ground that provides just enough features to make my life easier, but not too many that small to mid-size projects suffer from complexity and bloat. This framework is not designed to be for **everyone** or **everything**. If this project fits your needs, great! If not, there are plenty of fantastic alternatives.
 
 Getting Started
 ---------------
